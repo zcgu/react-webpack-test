@@ -1,0 +1,32 @@
+{
+  "name": "react-webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "webpack -d --watch",
+	"build" : "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zcgu/react-webpack-test.git"
+  },
+  "author": "Zhicheng Gu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zcgu/react-webpack-test/issues"
+  },
+  "homepage": "https://github.com/zcgu/react-webpack-test#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-env": "^1.1.10",
+    "babel-preset-react": "^6.23.0"
+  }
+}
